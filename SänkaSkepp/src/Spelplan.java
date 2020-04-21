@@ -17,10 +17,10 @@ public class Spelplan {
     private final int SKEPPHIT = 2;
 
     public Spelplan(int width, int height, int columns, int rows, boolean grid) {
-        this.width = width;
-        this.height = height;
-        this.columns = columns;
-        this.rows = rows;
+        this.width = 1000;
+        this.height = 1000;
+        this.columns = 10;
+        this.rows = 10;
         this.grid = grid;
         gameover = false;
         xDot = (int) width / columns;
@@ -30,7 +30,20 @@ public class Spelplan {
         setBackground(Color.white);
         reset();
     }
+    public void reset(){
+        for(int i=0;i<columns;i++)
+            for(int j=0;j<rows;j++)
+                spelplan[i][j] = NOTHING;
+        gameover = false;
+    }
 
+    public int columnCount(){
+        return columns;
+    }
+
+    public int rowCount(){
+        return rows;
+    }
 
 
 }
