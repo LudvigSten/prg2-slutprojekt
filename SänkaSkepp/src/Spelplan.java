@@ -26,8 +26,8 @@ public class Spelplan {
         xDot = (int) width / columns;
         yDot = (int) height / rows;
         spelplan = new int[columns][rows];
-        setSize(new Dimension(width, height));
-        setBackground(Color.white);
+       // setSize(new Dimension(width, height));
+       // setBackground(Color.white);
         reset();
     }
     public void reset(){
