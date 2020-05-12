@@ -4,6 +4,8 @@ Planering under Projects
 
 ## Loggbok
 
+**MAJ 12** Googlat och kollat igenom äldre uppgifter för att försöka lista ut hur jag ska göra nätverksdelen, har just nu någonting men måste definitivt göra mer.
+
 **MAJ 05** Har försökt få JButtons att lyssna. Gått sisådär, suttit fast ett bra tag och har ännu inte fått det att fungera som jag tänkt. Kommer försöka jobba utanför lektionstid för att få det att fungera. Vad jag fortsätter med nästa lektion kommer bero på hur mycket jag arbetar utanför lektion.
 
 **APR 28** Jobbat med GUI, läst om GUI och försökt fixa GUI kod. Nästa lektion har jag tänkt försöka få knapparna i GUI att göra som jag vill.

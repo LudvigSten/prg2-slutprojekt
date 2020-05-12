@@ -7,6 +7,10 @@ import java.awt.Color;
 
 public class GUI {
 
+    private enum ConnectionState { LISTENING, CONNECTING, CONNECTED, CLOSED }
+    private static String defaultPort = "1501";
+    private static String defaultHost = "localhost";
+
     JFrame frame=new JFrame();
     JButton[][] grid;
 
@@ -18,13 +22,13 @@ public class GUI {
                 grid[x][y]=new JButton("("+x+","+y+")");
 
                 //Måste fixa, fungearar endast om specifika koordinater är inskrivna ist för [x][y].
-                grid[x][y].addActionListener(new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent actionEvent) {
-                        grid[x][y].setBackground(Color.RED);
-                        grid[x][y].setOpaque(true);
-                    }
-                });
+                //grid[x][y].addActionListener(new ActionListener() {
+                //    @Override
+                //    public void actionPerformed(ActionEvent actionEvent) {
+                //        grid[x][y].setBackground(Color.RED);
+                //        grid[x][y].setOpaque(true);
+                //    }
+                //});
                 grid[x][y].addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent actionEvent) {
