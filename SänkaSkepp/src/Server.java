@@ -23,14 +23,14 @@ public class Server {
                 System.out.println("Client connected!");
 
                 String name = in.readLine();
-                if (name.equals("Shutdown")) {
-                    out.println("SERVER: Oh no, you terminated me...");
-                    in.close();
-                    out.close();
-                    socket.close();
-                    System.out.println("server shutting down...");
-                    System.exit(0);
-                }
+            //    if (name.equals("Shutdown")) {
+            //        out.println("SERVER: Oh no, you terminated me...");
+            //        in.close();
+            //        out.close();
+            //        socket.close();
+            //        System.out.println("server shutting down...");
+            //        System.exit(0);
+            //    }
                 System.out.println("Client name is \"" + name + "\"");
                 System.out.println("Sending feedback");
                 out.println("SERVER: Welcome " + name + "! Keep up the good work");

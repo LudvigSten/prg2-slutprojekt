@@ -21,14 +21,13 @@ public class GUI {
             for(int x=0; x<width; x++){
                 grid[x][y]=new JButton("("+x+","+y+")");
 
-                //Måste fixa, fungearar endast om specifika koordinater är inskrivna ist för [x][y].
-                //grid[x][y].addActionListener(new ActionListener() {
-                //    @Override
-                //    public void actionPerformed(ActionEvent actionEvent) {
-                //        grid[x][y].setBackground(Color.RED);
-                //        grid[x][y].setOpaque(true);
-                //    }
-                //});
+                grid[x][y].addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent actionEvent) {
+                        grid[1][1].setBackground(Color.RED);
+                        grid[1][1].setOpaque(true);
+                    }
+                });
                 grid[x][y].addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent actionEvent) {
