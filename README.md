@@ -4,6 +4,8 @@ Planering under Projects
 
 ## Loggbok
 
+**MAJ 26** Fixat knapparnas färg problem. Kollat på Client.java och Server.java för att lista ut hur jag ska fixa dem.
+
 **MAJ 19** Internet har bråkat lite, försökt fixa lite i GUI.java, Server.java och läst google för att lista ut hur jag ska ändra lite i Spelplan.java och Kontroller.java.
 
 **MAJ 12** Googlat och kollat igenom äldre uppgifter för att försöka lista ut hur jag ska göra nätverksdelen, har just nu någonting men måste definitivt göra mer.
