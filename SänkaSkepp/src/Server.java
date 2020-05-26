@@ -34,7 +34,7 @@ public class Server {
                 System.out.println("Client name is \"" + name + "\"");
                 System.out.println("Sending feedback");
                 out.println("SERVER: Welcome " + name + "! Keep up the good work");
-                
+
                 in.close();
                 out.close();
                 socket.close();
