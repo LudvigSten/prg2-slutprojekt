@@ -24,7 +24,7 @@ public class GUI {
                 grid[x][y].addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent actionEvent) {
-                        grid[1][1].setBackground(Color.RED);
+                        ((JButton)actionEvent.getSource()).setBackground(Color.RED);
                         grid[1][1].setOpaque(true);
                     }
                 });
