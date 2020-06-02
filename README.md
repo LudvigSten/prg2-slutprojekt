@@ -2,6 +2,14 @@
 
 Planering under Projects
 
+## Post mortem
+
+Har arbetat med java i Intellij och försökt få ihop något som liknar sänka skepp.
+Gjorde ett spelbräde med ett rutnät (10x10) gjord av knappar med koordinater.
+Skapade en planering i GitHub i form av ett bräde under Projects fliken där jag försökte strukturera hur jag skulle jobba med projektet genom att dela upp det i olika delar t.ex. GUI och Server.
+Lyckades att få ihop ett rutnät av knappar ganska fort men fastnade på nätverksdelen och lyckades inte få ihop något som kan samarbeta med min andra kod för att skicka koordinater.
+I slutändan så gick projektet lite sisådär, fick inte till alla delarna eftersom jag inte hade kunskapen och i framtiden bör jag strukturera min tid bättre för att inte fastna på små delar lika länge.
+
 ## Loggbok
 
 **MAJ 26** Fixat knapparnas färg problem. Kollat på Client.java och Server.java för att lista ut hur jag ska fixa dem.
